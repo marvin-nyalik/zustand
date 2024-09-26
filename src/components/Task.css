@@ -1,0 +1,31 @@
+.task {
+  background: white;
+  border-radius: 5px;
+  min-height: 5rem;
+  color: black;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottomWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status {
+  font-size: small;
+  padding: 0.2rem;
+  border-radius: 3px;
+}
+
+.PLANNED {
+  background: var(--COLOR-GRAY-LIGHT);
+}
+.DONE {
+  background: var(--COLOR-DONE);
+}
+.ONGOING {
+  background: var(--COLOR-ONGOING);
+}
